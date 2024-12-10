@@ -37,10 +37,10 @@ The command `gcloud auth configure-docker`  configures your Docker CLI to use Go
 
 This build the container in your repository
 
-`gcloud builds submit --tag us-east1-docker.pkg.dev/todocontainer/todo-repo/todo-container:latest`
+`gcloud builds submit --tag us-east1-docker.pkg.dev/<project>/<repo>/<new image name>:latest`
 
 Used this to check if the image added
-`gcloud artifacts docker images list us-east1-docker.pkg.dev/todocontainer/todo-repo`
+`gcloud artifacts docker images list us-east1-docker.pkg.dev/<project>/<repo>`
 
 Now we need to go to Cloud Run and start up a service.
 
