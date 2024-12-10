@@ -35,7 +35,7 @@ The command `gcloud auth configure-docker`  configures your Docker CLI to use Go
 
 `gcloud auth configure-docker` 
 
-This build the container in your repository
+This build the image in your repository
 
 `gcloud builds submit --tag us-east1-docker.pkg.dev/<project>/<repo>/<new image name>:latest`
 
